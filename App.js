@@ -13,7 +13,6 @@ export default function App() {
     <View style={styles.container}>
       <Title/>
       <Main/>
-      <Form/>
     </View>
     </ImageBackground>
   );
