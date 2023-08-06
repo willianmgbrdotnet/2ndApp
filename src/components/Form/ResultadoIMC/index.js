@@ -6,8 +6,9 @@ import { View, Text } from "react-native"
 export default function ResultadoIMC(props){
     return(
         <View>
-            <Text>{props.resultadoImc}</Text>
             <Text>{props.messageResultadoImc}</Text>
+            <Text>{props.resultadoImc}</Text>
+            <Text>{props.classificacaoObesidade}</Text>
         </View>
     );
 }
