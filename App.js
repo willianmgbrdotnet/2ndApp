@@ -19,6 +19,7 @@ export default function App() {
 }
 
 //O estilo dos componentes é feito no StyleSheet e apenas referenciado nas suas tags
+//Foi retirado o "Background Color" para a "Imagem de Fundo" Funcionar
 const styles = StyleSheet.create({
   imagemFundo:{
     flex:1,

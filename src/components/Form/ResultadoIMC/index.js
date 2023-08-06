@@ -2,9 +2,12 @@
 import React from "react"
 import { View, Text } from "react-native"
 
-export default function ResultadoIMC(){
+//Recebe o resultado do cálculo e retorna segundo a View
+export default function ResultadoIMC(props){
     return(
         <View>
+            <Text>{props.resultadoImc}</Text>
+            <Text>{props.messageResultadoImc}</Text>
         </View>
     );
 }

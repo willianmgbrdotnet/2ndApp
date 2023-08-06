@@ -7,3 +7,7 @@
 <li>Formulário e Imagem de fundo</li>
 
 <li>Button e "props"</li>
+
+<li>Definição das variáveis e useState</li>
+
+<li>App funcionando. Falta apenas melhorar UI e UX
